@@ -4,4 +4,4 @@ Scenario: Login with Empty Field
     Given I am on the SauceDemo login page
     When I enter username "" and password ""
     And I click the login button
-    Then I should see an error message Username is required
+    Then I should see an error message needed

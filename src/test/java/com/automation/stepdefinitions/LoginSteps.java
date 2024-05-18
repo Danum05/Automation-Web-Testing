@@ -63,17 +63,31 @@ public class LoginSteps {
         assertEquals(expectedErrorMessage, loginPage.getErrorMessage());
     }
 
+    @Then("I should see an error message needed")
+    public void i_should_see_an_error_message_needed() {
+        assertTrue(loginPage.isErrorMessageDisplayed());
+        String expectedErrorMessage = "Epic sadface: You need Username & Password !";
+        assertEquals(expectedErrorMessage, loginPage.getErrorMessage());
+    }
+
+    @Then("I should see an error message username")
+    public void i_should_see_an_error_message_username() {
+        assertTrue(loginPage.isErrorMessageDisplayed());
+        String expectedErrorMessage = "Epic sadface: Error Username doesn't match";
+        assertEquals(expectedErrorMessage, loginPage.getErrorMessage());
+    }
+
     @Then("I should see an error message Password is required")
     public void i_should_see_an_error_message_Password_is_required() {
         assertTrue(loginPage.isErrorMessageDisplayed());
-        String expectedErrorMessage = "Epic sadface: Password is required";
+        String expectedErrorMessage = "Epic sadface: You need Password !";
         assertEquals(expectedErrorMessage, loginPage.getErrorMessage());
     }
 
     @Then("I should see an error message Username is required")
     public void i_should_see_an_error_message_Username_is_required() {
         assertTrue(loginPage.isErrorMessageDisplayed());
-        String expectedErrorMessage = "Epic sadface: Username is required";
+        String expectedErrorMessage = "Epic sadface: You need Username !";
         assertEquals(expectedErrorMessage, loginPage.getErrorMessage());
     }
 
