@@ -128,7 +128,7 @@ Automation-Web-Testing/
 6.	src/test/java/com/automation/RunCucumberTest.java: Berkas yang menjalankan tes Cucumber.
 7.	src/test/resources: Direktori yang mengandung berkas-berkas fitur Cucumber.
    	- loginemptyfield.feature: Skenario pengujian untuk login dengan field kosong.
-  	- loginemptypassword.feature: Skenario pengujian untuk login dengan password kosong.\
+  	- loginemptypassword.feature: Skenario pengujian untuk login dengan password kosong.
   	- loginemptyusername.feature: Skenario pengujian untuk login dengan username kosong.
   	- logininvalidpassword.feature: Skenario pengujian untuk login dengan password tidak valid.
   	- loginInvalidUsername.feature: Skenario pengujian untuk login dengan username tidak valid.
@@ -150,12 +150,12 @@ Note.
 1. Setiap kali menjalankan automation testing, akan terbentuk hasil test report yang dapat diakses pada folder Automation-Web-Testing\target\cucumber.html
 
 # Workflow
-Langkah-Langkah Membuat Skrip Tes 
-Buat direktori tes.
-Pastikan Anda memiliki direktori yang sesuai untuk menyimpan file pengujian. Struktur folder yang ditentukan menyediakan direktori untuk pengujian di bawah app/src/test/java.
-Membuat kelas uji.
-Buat kelas tes di direktori tes untuk menguji kelas utama. Pada testing yang kami uji, kami membuat UserApiTestGet.java untuk menguji fungsionalitas pengambilan data API, UserApiTestPut.java untuk menguji fungsionalitas pembaruan data API, UserApiTestPost.java unntuk menguji fungsionalitas penambahan data API, dan UserApiTestDelete.java untuk menguji fungsionalitas penghapusan data  API.
-Gunakan kerangka pengujian.
+1. Langkah-Langkah Membuat Skrip Tes 
+2. Buat direktori tes.
+   - Pastikan Anda memiliki direktori yang sesuai untuk menyimpan file pengujian. Struktur folder yang ditentukan menyediakan direktori untuk pengujian di bawah app/src/test/java.
+3. Membuat kelas uji.
+   - Buat kelas tes di direktori tes untuk menguji kelas utama. Pada testing yang kami uji, kami membuat UserApiTestGet.java untuk menguji fungsionalitas pengambilan data API, UserApiTestPut.java untuk menguji fungsionalitas pembaruan data API, UserApiTestPost.java unntuk menguji fungsionalitas penambahan data API, dan UserApiTestDelete.java untuk menguji fungsionalitas penghapusan data  API.
+4. Gunakan kerangka pengujian.
 Kelas pengujian yang Anda buat menggunakan kerangka pengujian seperti JUnit. Anda dapat menambahkan anotasi JUnit seperti @Test ke metode yang ingin Anda uji. salah satu contohnya yaitu :  
 
 ```
@@ -189,17 +189,17 @@ pengujian Web dilakukan pada halaman login terdapat 2 fitur yang akan di cek yai
 # Test Case
 Pembuatan test case meliputi test positif dan test negatif, yaitu
 ## Test Case untuk fitur login
-Menguji Tampil Halaman Login
-Menguji Login Berhasil
-Menguji Field Password Tidak Terisi
-Menguji Field Password Tidak Sinkron dengan Username
-Menguji Field dengan Username kosong
-Menguji Jika field dengan username tidak ada dalam database
-Menguji jika field dengan username dan password tidak ada dalam database
-Menguji jika username dan password kosong
+1. Menguji Tampil Halaman Login
+2. Menguji Login Berhasil
+3. Menguji Field Password Tidak Terisi
+4. Menguji Field Password Tidak Sinkron dengan Username
+5. Menguji Field dengan Username kosong
+6. Menguji Jika field dengan username tidak ada dalam database
+7. Menguji jika field dengan username dan password tidak ada dalam database
+8. Menguji jika username dan password kosong
 
 ## Test Case untuk fitur logout
-Menguji logout berhasil
+9. Menguji logout berhasil
 
 
 
