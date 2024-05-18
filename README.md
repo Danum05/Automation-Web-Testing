@@ -122,29 +122,29 @@ Automation-Web-Testing/
 1.	src/main/java/com/automation/Main.java: Berkas utama yang menjalankan aplikasi Java.
 2.	src/test/java/com/automation/hooks/Hooks.java: Berkas yang mengandung hook untuk tes Cucumber.
 3.	src/test/java/com/automation/pages:
-	•	LoginPage.java: Kelas yang merepresentasikan halaman login.
-	•	ProductsPage.java: Kelas yang merepresentasikan halaman produk.
-4.	src/test/java/com/automation/stepdefinitions/LoginSteps.java: Berkas yang mengandung definisi langkah-langkah untuk skenario Cucumber terkait login.
-5.	src/test/java/com/automation/RunCucumberTest.java: Berkas yang menjalankan tes Cucumber.
-6.	src/test/resources: Direktori yang mengandung berkas-berkas fitur Cucumber.
-	•	loginemptyfield.feature: Skenario pengujian untuk login dengan field kosong.
-	•	loginemptypassword.feature: Skenario pengujian untuk login dengan password kosong.
-	•	loginemptyusername.feature: Skenario pengujian untuk login dengan username kosong.
-	•	logininvalidpassword.feature: Skenario pengujian untuk login dengan password tidak valid.
-	•	loginInvalidUsername.feature: Skenario pengujian untuk login dengan username tidak valid.
-	•	loginInvalidUsernamepassword.feature: Skenario pengujian untuk login dengan username dan password tidak valid.
-	•	loginvalid.feature: Skenario pengujian untuk login dengan kredensial yang valid.
-	•	logout.feature: Skenario pengujian untuk logout.
-	•	showloginpage.feature: Skenario pengujian untuk menampilkan halaman login.
-7.	target: Direktori keluaran Maven yang berisi hasil kompilasi dan laporan pengujian.
-	•	classes: Berkas kelas yang sudah dikompilasi.
-	•	maven-status: Informasi status Maven.
-	•	surefire-reports: Laporan pengujian Surefire.
-	•	test-classes: Berkas kelas hasil kompilasi tes.
-	•	cucumber.html: Laporan hasil tes Cucumber dalam format HTML.
-8.	msedgedriver.exe: Eksekusi driver untuk Microsoft Edge.
-9.	pom.xml: Berkas konfigurasi Maven.
-10.	README.md: Berkas dokumentasi proyek.
+   	• LoginPage.java: Kelas yang merepresentasikan halaman login.
+  	• ProductsPage.java: Kelas yang merepresentasikan halaman produk.
+5.	src/test/java/com/automation/stepdefinitions/LoginSteps.java: Berkas yang mengandung definisi langkah-langkah untuk skenario Cucumber terkait login.
+6.	src/test/java/com/automation/RunCucumberTest.java: Berkas yang menjalankan tes Cucumber.
+7.	src/test/resources: Direktori yang mengandung berkas-berkas fitur Cucumber.
+   	• loginemptyfield.feature: Skenario pengujian untuk login dengan field kosong.
+  	• loginemptypassword.feature: Skenario pengujian untuk login dengan password kosong.\
+  	• loginemptyusername.feature: Skenario pengujian untuk login dengan username kosong.
+  	• logininvalidpassword.feature: Skenario pengujian untuk login dengan password tidak valid.
+  	• loginInvalidUsername.feature: Skenario pengujian untuk login dengan username tidak valid.
+  	• loginInvalidUsernamepassword.feature: Skenario pengujian untuk login dengan username dan password tidak valid.
+  	• loginvalid.feature: Skenario pengujian untuk login dengan kredensial yang valid.
+  	• logout.feature: Skenario pengujian untuk logout.
+  	• showloginpage.feature: Skenario pengujian untuk menampilkan halaman login.
+9.	target: Direktori keluaran Maven yang berisi hasil kompilasi dan laporan pengujian.
+    	• classes: Berkas kelas yang sudah dikompilasi.
+  	• maven-status: Informasi status Maven.
+  	• surefire-reports: Laporan pengujian Surefire.
+  	• test-classes: Berkas kelas hasil kompilasi tes.
+  	• cucumber.html: Laporan hasil tes Cucumber dalam format HTML.
+11.	msedgedriver.exe: Eksekusi driver untuk Microsoft Edge.
+12.	pom.xml: Berkas konfigurasi Maven.
+13.	README.md: Berkas dokumentasi proyek.
 
 Note.
 1. Setiap kali menjalankan automation testing, akan terbentuk hasil test report yang dapat diakses pada folder Automation-Web-Testing\target\cucumber.html
