@@ -51,11 +51,11 @@ Proses konfigurasi project menggunakan build automation pada File build.gradle.
             <version>7.0.0</version> <!-- Versi terbaru -->
             <scope>test</scope>
         </dependency>
-   ```
-```    
+   ``` 
 
 # Struture Project Test
 Tujuan project adalah proses pengujian automation web, sehingga kode program tersimpan dalam package test. Adapun struktur package sbb:
+
 ```
 Automation-Web-Testing/
 ├── src
@@ -115,8 +115,8 @@ Automation-Web-Testing/
 ├── msedgedriver.exe
 ├── pom.xml
 └── README.md
-
 ```
+
 
 
 1.	src/main/java/com/automation/Main.java: Berkas utama yang menjalankan aplikasi Java.
@@ -157,11 +157,13 @@ Membuat kelas uji.
 Buat kelas tes di direktori tes untuk menguji kelas utama. Pada testing yang kami uji, kami membuat UserApiTestGet.java untuk menguji fungsionalitas pengambilan data API, UserApiTestPut.java untuk menguji fungsionalitas pembaruan data API, UserApiTestPost.java unntuk menguji fungsionalitas penambahan data API, dan UserApiTestDelete.java untuk menguji fungsionalitas penghapusan data  API.
 Gunakan kerangka pengujian.
 Kelas pengujian yang Anda buat menggunakan kerangka pengujian seperti JUnit. Anda dapat menambahkan anotasi JUnit seperti @Test ke metode yang ingin Anda uji. salah satu contohnya yaitu :  
+
+```
 @Test
     public void testCase1_03() {
 	. . .
 }
-
+```
 
 Menulis kasus uji.
 Tulis kode dalam metode yang dianotasi sebagai @Test untuk menguji fungsionalitas  kelas atau metode yang diinginkan. Anda dapat menggunakan berbagai metode penegasan JUnit, seperti penegasanEquals dan penegasanTrue, untuk memastikan bahwa kelas atau metode berperilaku seperti yang Anda harapkan.
